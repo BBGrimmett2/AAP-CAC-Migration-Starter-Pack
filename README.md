@@ -5,7 +5,7 @@
 > It is **not** an official or supported migration path from Red Hat. Validate everything in non-production first.
 
 > **Credential secrets cannot be migrated**  
-> CaC **does not export secret values**. During import, **credential objects are created without their passwords/tokens/private keys**. You must **re-enter secrets manually** in AAP 2.5 (or seed them via your own secret manager/API) after the import completes.
+> CaC **does not export secret values**. During import, **credential objects are created without their passwords/tokens/private keys**. You must **re-enter secrets manually** in AAP 2.5+ (or seed them via your own secret manager/API) after the import completes.
 
 ## What this repo contains
 
