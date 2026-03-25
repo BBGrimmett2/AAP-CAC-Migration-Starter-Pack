@@ -2,6 +2,7 @@
 - name: Import Automation Controller Configs
   hosts: localhost
   gather_facts: false
+  ignore_errors: true # To prevent dependency issues with deployments
   vars_files:
     - vars.yml
   pre_tasks:
