@@ -2,3 +2,5 @@ group_vars/
 .gitignore
 aap-export
 filetree_output/
+ansible.cfg
+vars.yml
