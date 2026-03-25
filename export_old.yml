@@ -33,8 +33,8 @@
 
   roles:
     - role: infra.controller_configuration.filetree_create
-      vars:
-        organization_filter: "{{ export_organization | default(omit) }}"
+      # vars:
+      #   organization_filter: "{{ export_organization | default(omit) }}"
 
   post_tasks:
     - name: "Delete the Authentication Token used"

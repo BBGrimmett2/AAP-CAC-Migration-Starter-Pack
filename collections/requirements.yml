@@ -2,6 +2,7 @@
 collections:
   - name: awx.awx
   - name: infra.controller_configuration
+    version: 3.2.3
   - name: ansible.platform
   - name: ansible.hub
   - name: ansible.controller
